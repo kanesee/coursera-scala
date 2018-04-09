@@ -1,0 +1,13 @@
+runMain scalashop.VerticalBoxBlurRunner
+exit
+runMain scalashop.VerticalBoxBlurRunner
+exit
+runMain scalashop.HorizontalBoxBlurRunner
+runMain scalashop.ScalaShop
+exit
+runMain scalashop.HorizontalBoxBlurRunner
+runMain scalashop.ScalaShop
+exit
+runMain scalashop.ScalaShop
+submit kanesee@gmail.com wFS8eEg5Mfp6fVUB
+exit

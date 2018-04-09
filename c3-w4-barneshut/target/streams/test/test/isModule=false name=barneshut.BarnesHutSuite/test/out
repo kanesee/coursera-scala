@@ -1,0 +1,23 @@
+[0m[[0minfo[0m] [0m[32mBarnesHutSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Empty: center of mass should be the center of the cell[0m[0m
+[0m[[0minfo[0m] [0m[32m- Empty: mass should be 0[0m[0m
+[0m[[0minfo[0m] [0m[32m- Empty: total should be 0[0m[0m
+[0m[[0minfo[0m] [0m[32m- Leaf with 1 body[0m[0m
+[0m[[0minfo[0m] [0m[32m- Fork with 3 empty quadrants and 1 leaf (nw)[0m[0m
+[0m[[0minfo[0m] [0m[32m- Empty.insert(b) should return a Leaf with only that body[0m[0m
+[0m[[0minfo[0m] [0m[32m- Body.updated should do nothing for Empty quad trees[0m[0m
+[0m[[0minfo[0m] [0m[31m- Body.updated should take bodies in a Leaf into account *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  FloatOps.DoubleOps(body.xspeed.toDouble).~=(12.587037086486816) was false (BarnesHutSuite.scala:96)[0m[0m
+[0m[[0minfo[0m] [0m[31m- 'SectorMatrix.+=' should add a body at (25,47) to the correct bucket of a sector matrix of size 96 *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at barneshut.package$SectorMatrix.$plus$eq(package.scala:180)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at barneshut.BarnesHutSuite$$anonfun$9.apply$mcV$sp(BarnesHutSuite.scala:110)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at barneshut.BarnesHutSuite$$anonfun$9.apply(BarnesHutSuite.scala:102)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at barneshut.BarnesHutSuite$$anonfun$9.apply(BarnesHutSuite.scala:102)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
